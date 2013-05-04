@@ -8,7 +8,7 @@ var verbose = require('debug')('webot-example:verbose');
 var app = express();
 
 // 实际使用时，这里填写你在微信公共平台后台填写的 token
-var wx_token = process.env.WX_TOKEN || 'keyboardcat123';
+var wx_token = process.env.WX_TOKEN || 'DOGzzzy';
 
 // remove this test code in production environment
 try {
@@ -32,7 +32,7 @@ webot.watch(app, { token: wx_token, });
 require('./rules.js')(webot);
 
 // 在环境变量提供的 $PORT 或 3000 端口监听
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 app.listen(port, function(){
   log("Listening on %s", port);
 });
