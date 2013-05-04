@@ -1,4 +1,4 @@
-var crypto = require('crypto');
+﻿var crypto = require('crypto');
 
 var debug = require('debug');
 var log = debug('webot-example:log');
@@ -28,7 +28,7 @@ module.exports = exports = function(webot){
         pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg',
         url: 'https://github.com/node-webot/webot-example',
         description: [
-          '建议你试试这几条指令:',
+          '郑钻哲郑钻哲建议你试试这几条指令:',
             '1. game : 玩玩猜数字的游戏吧',
             '2. s+空格+关键词 : 我会帮你百度搜索喔',
             '3. s+空格+nde : 可以试试我的纠错能力',
