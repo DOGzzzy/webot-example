@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var webot = require('weixin-robot');
 
 var log = require('debug')('webot-example:log');
@@ -8,7 +8,7 @@ var verbose = require('debug')('webot-example:verbose');
 var app = express();
 
 // 实际使用时，这里填写你在微信公共平台后台填写的 token
-var wx_token = process.env.WX_TOKEN || 'DOGzzzy2';
+var wx_token = process.env.WX_TOKEN || 'DOGzzzy';
 
 // remove this test code in production environment
 try {
