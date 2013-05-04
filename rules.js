@@ -35,7 +35,8 @@ module.exports = exports = function(webot){
             '4. 发送你的经纬度',
             '5. 重看本指令请回复help或问号',
             '6. 更多指令请回复more',
-            'PS: 点击下面的「查看全文」将跳转到我的github页'
+            'PS: 点击下面的「查看全文」将跳转到我的github页',
+			'狗狗心语到此一游'
         ].join('\n')
       };
       // 返回值如果是list，则回复图文消息列表
